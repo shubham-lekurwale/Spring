@@ -1,0 +1,348 @@
+body {
+
+	align-content: center;
+	align-items: center;
+	text-align: center;
+	margin: 0%;
+}
+
+table {
+	align-self: center;
+	text-align: center;
+	border: 4em;
+}
+
+td {
+	font-size: 2em;
+}
+
+.Registration {
+	background-color: darkviolet;
+	align-content: center;
+	margin: 0%;
+}
+
+.index {
+	background-color: darkmagenta;
+	text-align: center;
+	background: -moz-linear-gradient(red, black);
+	background: -o-linear-gradient(red, black);
+	background: -webkit-gradient(red, black);
+}
+
+/*style index or homepage */
+.index table tr td {
+	text-align: center;
+	margin: 0%;
+	background-attachment: fixed;
+	background-color: maroon;
+	margin-top: 50px;
+}
+
+.index table tr td:hover {
+	background-color: black;
+	box-flex: inherit;
+	box-shadow: 20px 15x 20px 15px red;
+	text-shadow: 10px 5px 10px 5px black;
+}
+
+.index h1 {
+	text-align: center;
+	margin: 0%;
+	color: azure;
+	background-attachment: fixed;
+	font-size: 4em;
+
+}
+
+.index hr {
+	margin-top: 45px;
+	margin-bottom: 45px;
+}
+
+.index table tr td a {
+	font-size: 2em;
+	color: chartreuse;
+	padding: 10px 10px 10px 10px;
+
+}
+
+.index table tr td a:hover {
+	color: aqua;
+	box-shadow: 20px 15x 20px 15px red;
+	text-shadow: 10px 5px 10px 5px black;
+
+}
+
+/*style Registration form*/
+
+.Registration {
+	background-color: indigo;
+	align-content: center;
+	text-align: center;
+	margin: auto;
+}
+
+.Registration h1 {
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 4em;
+	color: aqua;
+}
+
+.Registration hr {
+	margin-top: -30px;
+}
+
+.Registration table {
+	table-layout: auto;
+	margin: auto;
+	margin-top: 27px;
+	margin-bottom: 27px;
+	color: aliceblue;
+	font: 100;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	text-align: center;
+	font-size: 1em;
+}
+
+.Registration .txt {
+	font-size: 25px;
+	background-size: cover;
+	margin: auto;
+	transform: scale();
+	border-radius: 1em;
+	width: 20ch;
+	text-align: center;
+}
+
+.Registration .rdo {
+	size: 4em;
+	width: 28px;
+	height: 28px;
+	background-color: darkmagenta;
+}
+
+.Registration .txt:hover {
+	background-color: darkgrey;
+}
+
+.Registration .btnr {
+	color: aliceblue;
+	font-size: 25px;
+	background-size: cover;
+	background-color: darkred;
+	margin: auto;
+	transform: scale();
+	border-radius: 1em;
+}
+
+.Registration .btns {
+	color: aliceblue;
+	font-size: 25px;
+	background-size: cover;
+	background-color: green;
+	margin: auto;
+	transform: scale();
+	border-radius: 1em;
+}
+
+.Registration .btnl {
+	color: aliceblue;
+	font-size: 25px;
+	background-size: cover;
+	background-color: darkcyan;
+	margin: auto;
+	transform: scale();
+	border-radius: 1em;
+}
+
+.btns :hover {
+	background-color: darkolivegreen;
+
+}
+
+/*Style login form*/
+.login {
+	background-color: darkblue;
+	text-align: center;
+	align-content: center;
+	margin: auto;
+
+}
+
+.login h1 {
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	font-stretch: expanded;
+	font-size: 3em;
+	color: aqua;
+}
+
+.login hr {
+	margin-top: 80px;
+}
+
+.login table {
+	text-align: center;
+	table-layout: auto;
+	margin: auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.login table tr td {
+	color: aliceblue;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-stretch: expanded;
+	font-weight: 200;
+}
+
+.login .txt {
+	font-size: 25px;
+	background-size: cover;
+	margin: auto;
+	transform: scale();
+	border-radius: 1em;
+	border-bottom-color: black 5px;
+	width: 30ch;
+	text-align: center;
+}
+
+.txtArea{
+	font-size: 25px;
+	background-size: cover;
+	margin: auto;
+	transform: scale();
+	border-radius: 1em;
+	border-bottom-color: black 5px;
+	width: 30ch;
+	height:100px;
+	text-align: left;
+}
+
+.login .txt :hover {
+	background-color: lightblue;
+}
+
+.login .btnl {
+
+	color: aliceblue;
+	font-size: 25px;
+	background-size: cover;
+	background-color: darkcyan;
+	margin: auto;
+	transform: scale();
+	border-radius: 1em;
+
+}
+
+.login .btnr {
+
+	color: aliceblue;
+	font-size: 25px;
+	background-size: cover;
+	background-color: darkred;
+	margin: auto;
+	transform: scale();
+	border-radius: 1em;
+
+
+}
+
+.login .btns {
+	color: aliceblue;
+	font-size: 25px;
+	background-size: cover;
+	background-color: green;
+	margin: auto;
+	transform: scale();
+	border-radius: 1em;
+
+}
+
+/*style profile form*/
+.profile {
+	background-color: black;
+	text-decoration: chartreuse;
+	text-align-last: center;
+}
+
+.profile hr {
+	margin-top: 40px;
+}
+
+.profile h1 {
+	color: aliceblue;
+	font-stretch: extra-expanded;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	font-size: 2em;
+
+}
+
+.profile table {
+	margin: auto;
+	margin-top: 40px;
+	text-align: left;
+	color: aliceblue;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-size: 1em;
+}
+
+.profile tableS :hover {
+	color: aqua;
+}
+
+.profile .btnu {
+	color: aliceblue;
+	font-size: 30px;
+	background-size: cover;
+	background-color: green;
+	margin: auto;
+	transform: scale();
+	border-radius: 1em;
+
+}
+
+.profile .btnd {
+	color: aliceblue;
+	font-size: 30px;
+	background-size: cover;
+	background-color: darkred;
+	margin: auto;
+	transform: scale();
+	border-radius: 1em;
+
+}
+.records{
+	background-color: darkolivegreen;
+}
+.records h1{
+	color: aliceblue;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font: outline;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 3em	
+}
+.records table{
+	margin: auto;
+
+}
+.records table tr th{
+	background-color: black;
+	color: aliceblue;
+	font-size: 2em;
+	padding: 10px 10px 10px 10px;
+}
+.records table tr{
+	background-color: brown;
+	color: aqua;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-size: 1em;
+}
+.records table tr td{
+	padding: 10px 10px 10px 10px;
+}
+
+.records .feed{
+	width: 13ch;
+}
